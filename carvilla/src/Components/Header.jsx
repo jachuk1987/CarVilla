@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactDOM from 'react-dom';
 
 class Header extends Component {
   constructor(props) {
