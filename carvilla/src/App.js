@@ -12,6 +12,6 @@ function App() {
       <NewCarsSection />
     </div>
   );
-}
+};
 
 export default App;
