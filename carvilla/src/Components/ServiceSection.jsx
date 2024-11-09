@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+// Import your icon images
+import carIcon from '../images/car-icon.png';
+import repairIcon from '../assets/images/repair-icon.png';
+import insuranceIcon from '../assets/images/insurance-icon.png';
 
 class ServiceSection extends Component {
   render() {
@@ -10,34 +14,28 @@ class ServiceSection extends Component {
               <div className="col-md-4 col-sm-6">
                 <div className="single-service-item">
                   <div className="single-service-icon">
-                    <i className="flaticon-car"></i>
+                    <img src={carIcon} alt="Car Icon" />
                   </div>
-                  <h2><a href="#">largest dealership <span> of</span> car</a></h2>
-                  <p>
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.
-                  </p>
+                  <h2><a href="#">Largest dealership <span>of</span> cars</a></h2>
+                  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
                 </div>
               </div>
               <div className="col-md-4 col-sm-6">
                 <div className="single-service-item">
                   <div className="single-service-icon">
-                    <i className="flaticon-car-repair"></i>
+                    <img src={repairIcon} alt="Repair Icon" />
                   </div>
-                  <h2><a href="#">unlimited repair warranty</a></h2>
-                  <p>
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.
-                  </p>
+                  <h2><a href="#">Unlimited repair warranty</a></h2>
+                  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
                 </div>
               </div>
               <div className="col-md-4 col-sm-6">
                 <div className="single-service-item">
                   <div className="single-service-icon">
-                    <i className="flaticon-car-1"></i>
+                    <img src={insuranceIcon} alt="Insurance Icon" />
                   </div>
-                  <h2><a href="#">insurance support</a></h2>
-                  <p>
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.
-                  </p>
+                  <h2><a href="#">Insurance support</a></h2>
+                  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
                 </div>
               </div>
             </div>
