@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // Import your icon images
 import carIcon from '../images/car-icon.png';
-import repairIcon from '../assets/images/repair-icon.png';
+import repairIcon from '../images/repair-icon.png';
 import insuranceIcon from '../assets/images/insurance-icon.png';
 
 class ServiceSection extends Component {
