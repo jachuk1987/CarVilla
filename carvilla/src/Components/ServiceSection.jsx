@@ -44,6 +44,6 @@ class ServiceSection extends Component {
       </section>
     );
   };
-}
+};
 
 export default ServiceSection;
