@@ -43,7 +43,7 @@ class ServiceSection extends Component {
         </div>
       </section>
     );
-  }
+  };
 }
 
 export default ServiceSection;
