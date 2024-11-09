@@ -95,6 +95,6 @@ class NewCarsSection extends Component {
       </section>
     );
   }
-}
+};
 
 export default NewCarsSection;
