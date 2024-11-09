@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// Import images
+import logo from '../images/favicon.png';
+import background from '../images/welcome-banner.jpg';
 
 class HomeSection extends Component {
   render() {
     return (
-      <section id="home" className="welcome-hero">
+      <section id="home" className="welcome-hero" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
         {/* Top Area */}
         <div className="top-area">
           <div className="header-area">
@@ -16,7 +19,9 @@ class HomeSection extends Component {
                   <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                     <i className="fa fa-bars"></i>
                   </button>
-                  <a className="navbar-brand" href="index.html">carvilla</a>
+                  <a className="navbar-brand" href="index.html">
+                    <img src={logo} alt="Carvilla Logo" style={{ height: '40px' }} />
+                  </a>
                 </div>
                 {/* Nav Links */}
                 <div className="collapse navbar-collapse menu-ui-design" id="navbar-menu">
@@ -32,7 +37,6 @@ class HomeSection extends Component {
               </div>
             </nav>
           </div>
-          <div className="clearfix"></div>
         </div>
 
         {/* Welcome Text */}
@@ -115,9 +119,9 @@ class HomeSection extends Component {
                       <div className="model-select-icon">
                         <select className="form-control">
                           <option value="default">price</option>
-                          <option value="0">$0.00</option>
                           <option value="10000">$10,000</option>
                           <option value="20000">$20,000</option>
+                          <option value="30000">$30,000</option>
                         </select>
                       </div>
                     </div>
