@@ -138,7 +138,7 @@ class HomeSection extends Component {
         </div>
       </section>
     );
-  }
+  };
 }
 
 export default HomeSection;
